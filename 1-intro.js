@@ -6,5 +6,3 @@ if(amount < 10){
     console.log("large number");
 }
 
-console.log(__dirname);  // path to current directory
-console.log(__filename); //file name you are in
