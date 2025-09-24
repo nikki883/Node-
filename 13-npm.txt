@@ -1,0 +1,36 @@
+// npm comes pre-installed with Node.js
+// Check npm version
+// npm --version
+
+// ---------------- LOCAL DEPENDENCY ----------------
+// Installed inside node_modules of your project.
+// You use it by requiring/importing in your code.
+// Example: Express (web framework)
+// npm install express
+//
+// Usage in code:
+// const express = require('express');
+// const app = express();
+
+// ---------------- GLOBAL DEPENDENCY ----------------
+// Installed globally and available from anywhere on your system.
+// Usually used for CLI tools (not inside code).
+// Example: Nodemon (auto-restart server on changes)
+// npm install -g nodemon
+//
+// Usage in terminal:
+// nodemon server.js
+
+// ---------------- MAC / LINUX NOTE ----------------
+// On Mac/Linux, you may need to use 'sudo' for global install
+// sudo npm install -g <package-name>
+
+
+// package.json → manifest file (stores important info about the project/package)
+
+// Manual approach → create package.json file in the root folder and add properties manually
+// Example: name, version, description, scripts, dependencies, etc.
+
+// npm init → step-by-step setup wizard (press Enter to skip a field)
+
+// npm init -y → creates package.json with default values instantly
